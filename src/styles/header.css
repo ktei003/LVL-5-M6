@@ -1,4 +1,74 @@
-.test{
-    color: blue;
-    font-size: 50px;
+.header-container{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+.header-logo{
+    width: 20vw;
+    height: auto;
+    text-align: center;
+ 
+
+}
+
+.header-options{
+    width: 12vw;
+    height: auto;
+    text-align: center;
+ 
+}
+
+.right-btns{
+    width: 20vw;
+    height: auto;
+    text-align: center;
+    display: flex;
+    
+ 
+}
+
+.header-text{
+font-size: 60px;
+font-family: var(--typography-font-family-400);
+border: none;
+cursor: pointer;
+background-color: white;
+color: #21386b;
+padding-top: 20px;
+font-weight: bold;
+}
+
+.header-text-options{
+font-size: 40px;
+border: none;
+cursor: pointer;
+background-color: white;
+padding-top: 40px;
+}
+
+.sign-in-btn{
+    font-size: 40px;
+    color: rgb(63, 141, 243);
+    border: 4px solid rgb(63, 141, 243);
+    background-color: white;
+    border-radius: 24px;
+    width: 200px;
+    margin-top: 37px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.search-btn{
+    
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+.s2-btn{
+padding: 40px 0px 0px 20px
 }
